@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 8, Errors: 0, Skipped: 4, Time elapsed: 12.906 s <<< FAILURE! - in TestSuite
+runScenario(cucumber.TestRunner)  Time elapsed: 5.961 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+tearDown(rahulshettyacademy.tests.ErrorValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+LoginErrorValidation(rahulshettyacademy.tests.ErrorValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "rahulshettyacademy.pageobjects.LandingPage.loginApplication(String, String)" because "this.landingpage" is null
+	at rahulshettyacademy.tests.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:22)
+
+tearDown(rahulshettyacademy.tests.ErrorValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+tearDown(rahulshettyacademy.tests.ErrorValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+submitOrder(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "rahulshettyacademy.pageobjects.LandingPage.loginApplication(String, String)" because "this.landingpage" is null
+	at rahulshettyacademy.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:32)
+
+tearDown(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+tearDown(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
